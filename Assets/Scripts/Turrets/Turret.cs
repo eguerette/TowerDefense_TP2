@@ -23,7 +23,7 @@ public class Turret : MonoBehaviour
 
             turretHead.transform.LookAt(target.transform);
 
-            Shoot();
+            //Shoot();
         }
     }
 
