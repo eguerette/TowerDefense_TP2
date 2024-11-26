@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class EnemyMove : MonoBehaviour
 {
-    public GameObject enemy;
-    private GameObject Goal;
-    public Transform _Goal;
-    public float mvtSpeed = 2;
+    private Transform _Goal;
     private Turret _turretScript;
+    private EnemyInfo _enemyInfoScript;
+    public float mvtSpeed = 2;
 
+    void Start() {
+
+        _Goal = _enemyInfoScript.Goal;
+    }
     // Update is called once per frame
     void Update()
     {
+        
         transform.LookAt(_Goal);
         transform.position += transform.forward * mvtSpeed * Time.deltaTime;
     }
@@ -21,8 +25,8 @@ public class EnemyMove : MonoBehaviour
 
         if (other.tag == "Projectile") {
 
-            Destroy(enemy);
-            _turretScript.targetDestroyed = true;
+            Destroy(gameObject);
+            _turretScript.target = null;
         }
     }
     

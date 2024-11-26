@@ -6,20 +6,19 @@ using UnityEngine;
 public class Turret : MonoBehaviour
 {
     
-    private GameObject target;
+    public GameObject target;
     private bool targetLocked;
     
 
     public GameObject turretHead;
     public GameObject bulletSpawnPoint;
     public GameObject bullet;
-    public bool targetDestroyed = false;
     
     
     void Update() {
         
         //shooting and detecting ennemies
-        if (targetLocked && targetDestroyed == false) {
+        if (targetLocked && target != null) {
 
             turretHead.transform.LookAt(target.transform);
 

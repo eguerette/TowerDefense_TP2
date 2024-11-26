@@ -19,7 +19,6 @@ public class EnemySpawn : MonoBehaviour
 
             Spawn();
             timer = 0f;
-            _turretScript.targetDestroyed = false;
         }
     }
 
