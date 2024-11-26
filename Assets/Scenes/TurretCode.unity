@@ -170,7 +170,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 42624500}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -235,13 +235,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 42624500}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 83f01a07ef23a3f47bc7770007f1f44d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ennemy: {fileID: 75644224}
-  ennemySpawnPoint: {fileID: 42624500}
+  enemy: {fileID: 75644224}
+  enemySpawnPoint: {fileID: 42624500}
 --- !u!1 &75644224
 GameObject:
   m_ObjectHideFlags: 0
@@ -375,7 +375,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 2
 --- !u!114 &75644231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -388,6 +388,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f43409ac3e803846a6fd46701be9a86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemy: {fileID: 75644224}
   _Goal: {fileID: 491489896}
   mvtSpeed: 2
 --- !u!1 &116710628
@@ -747,7 +748,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 2
 --- !u!114 &491489898
 MonoBehaviour:
   m_ObjectHideFlags: 0

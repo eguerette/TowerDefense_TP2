@@ -8,22 +8,22 @@ public class Turret : MonoBehaviour
     
     private GameObject target;
     private bool targetLocked;
+    
 
     public GameObject turretHead;
     public GameObject bulletSpawnPoint;
     public GameObject bullet;
-
-    void Start() {
-        
-    }
+    public bool targetDestroyed = false;
+    
+    
     void Update() {
         
         //shooting and detecting ennemies
-        if (targetLocked) {
+        if (targetLocked && targetDestroyed == false) {
 
             turretHead.transform.LookAt(target.transform);
 
-            //Shoot();
+            Shoot();
         }
     }
 

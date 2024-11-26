@@ -5,31 +5,27 @@ using UnityEngine;
 
 public class EnemySpawn : MonoBehaviour
 {   
-    public GameObject ennemy;
-    public GameObject ennemySpawnPoint;
+    public GameObject enemy;
+    public GameObject enemySpawnPoint;
 
-    private float timer = 0.0f;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+    private float timer = 0f;
+    private Turret _turretScript;
     void Update()
     {
+
         timer += Time.deltaTime;
 
-        if(timer == 10f) {
+        if(timer == 5f) {
 
             Spawn();
-            timer = 0.0f;
+            timer = 0f;
+            _turretScript.targetDestroyed = false;
         }
     }
 
     private void Spawn() {
 
-        Transform _ennemy = Instantiate(ennemy.transform, ennemySpawnPoint.transform.position, quaternion.identity);
-        _ennemy.transform.rotation = ennemySpawnPoint.transform.rotation;
+        Transform _enemy = Instantiate(enemy.transform, enemySpawnPoint.transform.position, quaternion.identity);
+        _enemy.transform.rotation = enemySpawnPoint.transform.rotation;
     }
 }
