@@ -1,19 +1,34 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class EnemyMove : MonoBehaviour
 {
     public EnemyInfo _info;
     public Transform _Goal;
-    public float mvtSpeed = 2;
-    private Turret _turretScript;
-    private float enemyLife1;
+    public float mvtSpeed;
+    private float enemylife;
 
   
     private void Start()
     {
-        enemyLife1 = _info.lifev1;
+        if (gameObject.tag == "Enemy") {
+
+            enemylife = _info.life1;
+            mvtSpeed = _info.speed1;
+        }
+        if (gameObject.tag == "Enemy2") {
+
+            enemylife = _info.life2;
+            mvtSpeed = _info.speed2;
+        }
+        if (gameObject.tag == "Enemy3") {
+
+            enemylife = _info.life3;
+            mvtSpeed = _info.speed3;
+        }
+        
     }
 
     void Update()
@@ -23,13 +38,13 @@ public class EnemyMove : MonoBehaviour
         transform.position += transform.forward * mvtSpeed * Time.deltaTime;
     }
 
-    private async void OnTriggerEnter(Collider other) {
+    private void OnTriggerEnter(Collider other) {
 
         if (other.tag == "Projectile") {
             
-            if (enemyLife1 > 0) {
+            if (enemylife > 0) {
 
-                enemyLife1 --;
+                enemylife --;
             }
             else {
                 
