@@ -13,8 +13,7 @@ public class Turret : MonoBehaviour
     public GameObject turretHead;
     public GameObject bulletSpawnPoint;
     public GameObject bullet;
-    private float timerBullet = 0f;
-    
+    public GameObject defaultAnglePoint;
     
     void Update() {
         
@@ -24,6 +23,9 @@ public class Turret : MonoBehaviour
             turretHead.transform.LookAt(target.transform);
 
             Shoot();
+        }
+        else {
+            turretHead.transform.LookAt(defaultAnglePoint.transform);
         }
     }
 

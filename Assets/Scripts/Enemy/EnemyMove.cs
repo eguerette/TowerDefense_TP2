@@ -4,9 +4,18 @@ using UnityEngine;
 
 public class EnemyMove : MonoBehaviour
 {
+    public EnemyInfo _info;
     public Transform _Goal;
-    private Turret _turretScript;
     public float mvtSpeed = 2;
+    private Turret _turretScript;
+    private float enemyLife1;
+
+  
+    private void Start()
+    {
+        enemyLife1 = _info.lifev1;
+    }
+
     void Update()
     {
         
@@ -17,8 +26,16 @@ public class EnemyMove : MonoBehaviour
     private async void OnTriggerEnter(Collider other) {
 
         if (other.tag == "Projectile") {
+            
+            if (enemyLife1 > 0) {
 
-            Destroy(gameObject);
+                enemyLife1 --;
+            }
+            else {
+                
+                Destroy(gameObject);
+            }
+            
         }
     }
     
