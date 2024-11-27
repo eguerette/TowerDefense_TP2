@@ -26,5 +26,6 @@ public class EnemySpawn : MonoBehaviour
 
         Transform _enemy = Instantiate(enemy.transform, enemySpawnPoint.transform.position, quaternion.identity);
         _enemy.transform.rotation = enemySpawnPoint.transform.rotation;
+
     }
 }

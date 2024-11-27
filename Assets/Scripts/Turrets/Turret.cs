@@ -13,6 +13,7 @@ public class Turret : MonoBehaviour
     public GameObject turretHead;
     public GameObject bulletSpawnPoint;
     public GameObject bullet;
+    private float timerBullet = 0f;
     
     
     void Update() {

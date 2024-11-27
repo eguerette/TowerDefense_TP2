@@ -4,16 +4,9 @@ using UnityEngine;
 
 public class EnemyMove : MonoBehaviour
 {
-    private Transform _Goal;
+    public Transform _Goal;
     private Turret _turretScript;
-    private EnemyInfo _enemyInfoScript;
     public float mvtSpeed = 2;
-
-    void Start() {
-
-        _Goal = _enemyInfoScript.Goal;
-    }
-    // Update is called once per frame
     void Update()
     {
         
@@ -21,12 +14,11 @@ public class EnemyMove : MonoBehaviour
         transform.position += transform.forward * mvtSpeed * Time.deltaTime;
     }
 
-    private void OnTriggerEnter(Collider other) {
+    private async void OnTriggerEnter(Collider other) {
 
         if (other.tag == "Projectile") {
 
             Destroy(gameObject);
-            _turretScript.target = null;
         }
     }
     
