@@ -6,9 +6,9 @@ using UnityEngine;
 
 public class TurretInfo : ScriptableObject
 {
-    public float bulletSpeed1 = 1;
-    public float bulletSpeed2 = 1;
-    public float bulletSpeed3 = 1;
+    public float fireRateCooldown1 = 1;
+    public float fireRateCooldown2 = 0.5f;
+    public float fireRateCooldown3 = 0.05f;
     public bool turret1;
     public bool turret2;
     public bool turret3;

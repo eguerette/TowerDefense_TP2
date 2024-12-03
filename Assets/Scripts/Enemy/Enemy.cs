@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public class EnemyMove : MonoBehaviour
+public class Enemy : MonoBehaviour
 {
     public EnemyInfo _info;
     public Transform _Goal;
@@ -34,8 +34,7 @@ public class EnemyMove : MonoBehaviour
     void Update()
     {
         
-        transform.LookAt(_Goal);
-        transform.position += transform.forward * mvtSpeed * Time.deltaTime;
+        Move();
     }
 
     private void OnTriggerEnter(Collider other) {
@@ -52,6 +51,12 @@ public class EnemyMove : MonoBehaviour
             }
             
         }
+    }
+
+    private void Move() {
+
+        transform.LookAt(_Goal);
+        transform.position += transform.forward * mvtSpeed * Time.deltaTime;
     }
     
 }

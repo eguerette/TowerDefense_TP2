@@ -1,17 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using Unity.Mathematics;
+using Unity.VisualScripting;
 using Unity.XR.CoreUtils;
 using UnityEngine;
 
 public class Turret : MonoBehaviour
 {
-    
+    public TurretInfo _infoTurret;
     public GameObject target;
     private bool targetLocked;
     private bool shot = false;
     private float shotCooldown = 1f;
-    private float shotCooldownReset = 1f;
+    private float shotCooldownReset;
     
 
     public GameObject turretHead;
@@ -19,6 +20,22 @@ public class Turret : MonoBehaviour
     public GameObject bullet;
     public GameObject defaultAnglePoint;
     
+    void Start() {
+
+        if (this.tag == "Turret") {
+
+            shotCooldownReset = _infoTurret.fireRateCooldown1;
+        }
+        if (this.tag == "Turret2") {
+
+            shotCooldownReset = _infoTurret.fireRateCooldown2;
+        }
+        if (this.tag == "Turret3") {
+
+            shotCooldownReset = _infoTurret.fireRateCooldown3;
+        }
+    }
+
     void Update() {
         //shooting and detecting ennemies
         if (targetLocked && target != null) {
