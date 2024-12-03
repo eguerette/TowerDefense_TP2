@@ -31,16 +31,18 @@ public class TurretSnap : MonoBehaviour
         }
     }
 
-    public void OnRelease()
+    public void OnEndGrab()
     {
         if (closestSpot != null) 
         {
+            Debug.Log("Snapping to spot: " + closestSpot.name);
             transform.position = closestSpot.position;
 
             GetComponent<Collider>().enabled = false;
         }
         else
         {
+            Debug.Log("No valid spot. Returning to original position.");
             transform.position = originalPosition;
         }
     }
