@@ -3,7 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - Goal
+  - Projectile
+  - Enemy2
+  - Enemy3
+  - Turret
+  - Turret2
+  - Turret3
   layers:
   - Default
   - TransparentFX
