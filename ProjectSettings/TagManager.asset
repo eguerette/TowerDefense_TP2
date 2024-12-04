@@ -13,14 +13,15 @@ TagManager:
   - Turret2
   - Turret3
   - TurretSpot
+  - TurretBody
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - SnapLocation
   - Water
   - UI
-  - 
+  - ShootingRange
   - 
   - 
   - 
