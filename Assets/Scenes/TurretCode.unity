@@ -222,7 +222,7 @@ Transform:
   m_GameObject: {fileID: 42624500}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 14.5, z: 42.84}
+  m_LocalPosition: {x: -4.1, y: 14.5, z: 42.84}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -242,6 +242,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemy: {fileID: 1478927914296996915, guid: c32b6c2dfad4cd64ebf93e4073568177, type: 3}
   enemySpawnPoint: {fileID: 42624500}
+  Goal: {fileID: 491489896}
 --- !u!1 &116710628
 GameObject:
   m_ObjectHideFlags: 0
