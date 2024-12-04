@@ -7,9 +7,15 @@ public class EnemySpawn : MonoBehaviour
 {   
     public GameObject enemy;
     public GameObject enemySpawnPoint;
+    public Transform Goal;
     private bool spawned = false;
     private float spawnCooldown = 10f;
     private float spawnCooldownReset = 10f;
+
+    void Start() {
+
+        gameObject.transform.LookAt(Goal.position);
+    }
 
     void Update()
     {

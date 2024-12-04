@@ -6,15 +6,12 @@ using UnityEngine.UIElements;
 public class Enemy : MonoBehaviour
 {
     public EnemyInfo _info;
-    private Goal _goalInfo;
-    private Transform _Goal;
     public float mvtSpeed;
     private float enemylife;
 
   
     private void Start()
     {
-        _Goal = _goalInfo._goalLocation;
 
         if (gameObject.tag == "Enemy") {
 
@@ -57,7 +54,6 @@ public class Enemy : MonoBehaviour
 
     private void Move() {
 
-        transform.LookAt(_Goal);
         transform.position += transform.forward * mvtSpeed * Time.deltaTime;
     }
     
