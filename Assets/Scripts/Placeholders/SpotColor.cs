@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class SpotColor : MonoBehaviour
 {
-
     private Renderer spotMaterial;
 
     // Start is called before the first frame update
@@ -15,7 +14,7 @@ public class SpotColor : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Turret"))
+        if (other.CompareTag("TurretBody"))
         {
             if (spotMaterial != null) 
             {
@@ -26,7 +25,7 @@ public class SpotColor : MonoBehaviour
 
     public void OnTriggerExit(Collider other) 
     {
-        if (other.CompareTag("Turret"))
+        if (other.CompareTag("TurretBody"))
         {
             if (spotMaterial != null)
             {

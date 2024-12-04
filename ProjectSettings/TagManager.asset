@@ -12,6 +12,7 @@ TagManager:
   - Turret
   - Turret2
   - Turret3
+  - TurretSpot
   layers:
   - Default
   - TransparentFX

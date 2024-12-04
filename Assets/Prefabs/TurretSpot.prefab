@@ -66,7 +66,7 @@ GameObject:
   - component: {fileID: 9070310356056663075}
   m_Layer: 0
   m_Name: TurretSpot
-  m_TagString: Untagged
+  m_TagString: TurretSpot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
