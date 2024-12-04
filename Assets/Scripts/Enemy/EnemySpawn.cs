@@ -8,15 +8,14 @@ using UnityEngine;
 public class EnemySpawn : MonoBehaviour
 {   
     public GameObject enemy;
+    public GameObject enemy1;
+    public GameObject enemy2;
     public GameObject enemySpawnPoint;
     public Transform Goal;
     public InfosNiveau _infoNiveau;
-    private Enemy _enemy;
     private bool spawned = false;
     private float spawnCooldown = 10f;
     private float spawnCooldownReset = 10f;
-    string[] _enemies1 = {"Enemy", "Enemy1"};
-    string[] _enemies2 = {"Enemy", "Enemy1", "Enemy2"};
     
 
     void Start() {
@@ -26,33 +25,6 @@ public class EnemySpawn : MonoBehaviour
 
     void Update()
     {   
-
-        if(_infoNiveau.temps <= 5) {
-
-            _enemy._tag = "Enemy";
-        }
-        else if (_infoNiveau.temps > 5 && _infoNiveau.temps <= 10) {
-
-            _enemy._tag = _enemies1[UnityEngine.Random.Range(0, _enemies1.Length)];
-        }
-        else if (_infoNiveau.temps > 10 && _infoNiveau.temps < 15) {
-
-            _enemy._tag = _enemies2[UnityEngine.Random.Range(0, _enemies1.Length)];
-        }
-
-        // if(_infoNiveau.temps <= 100) {
-
-        //     _enemy._tag = "Enemy";
-        // }
-        // else if (_infoNiveau.temps > 100 && _infoNiveau.temps <= 200) {
-
-        //     _enemy._tag = _enemies1[UnityEngine.Random.Range(0, _enemies1.Length)];
-        // }
-        // else if (_infoNiveau.temps > 200 && _infoNiveau.temps < 300) {
-
-        //     _enemy._tag = _enemies2[UnityEngine.Random.Range(0, _enemies1.Length)];
-        // }
-
         if(spawned == false) {
 
             Spawn();
@@ -61,11 +33,27 @@ public class EnemySpawn : MonoBehaviour
 
     private void Spawn() {
 
-        Transform _enemy = Instantiate(enemy.transform, enemySpawnPoint.transform.position, quaternion.identity);
-        _enemy.transform.rotation = enemySpawnPoint.transform.rotation;
+        if (_infoNiveau.temps <=30 && _infoNiveau.temps > 15) {
+
+            Transform _enemy = Instantiate(enemy.transform, enemySpawnPoint.transform.position, quaternion.identity);
+            _enemy.transform.rotation = enemySpawnPoint.transform.rotation;
+        }
+        
+        if (_infoNiveau.temps <= 15 && _infoNiveau.temps > 5) {
+
+            Transform _enemy1 = Instantiate(enemy1.transform, enemySpawnPoint.transform.position, quaternion.identity);
+            _enemy1.transform.rotation = enemySpawnPoint.transform.rotation;
+        }
+
+        if (_infoNiveau.temps < 5) {
+
+            Transform _enemy2 = Instantiate(enemy2.transform, enemySpawnPoint.transform.position, quaternion.identity);
+            _enemy2.transform.rotation = enemySpawnPoint.transform.rotation;
+        }
 
         spawnCooldown = spawnCooldownReset;
         spawned = true;
+
         StartCoroutine(SpawnRate());
 
     }

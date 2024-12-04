@@ -241,9 +241,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 1478927914296996915, guid: c32b6c2dfad4cd64ebf93e4073568177, type: 3}
+  enemy1: {fileID: 4457868964545370273, guid: 546ae0650f22fa44e961059bb0639a53, type: 3}
+  enemy2: {fileID: 8982443448508467098, guid: 19123e24faa99b2498e87ed470ef5e0c, type: 3}
   enemySpawnPoint: {fileID: 42624500}
   Goal: {fileID: 491489896}
-  _infoNiveau: {fileID: 0}
+  _infoNiveau: {fileID: 11400000, guid: ee29f6b9dfecbe1419ce61adf582fd8b, type: 2}
 --- !u!1 &88483440
 GameObject:
   m_ObjectHideFlags: 0
@@ -514,6 +516,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 608521322}
+  - component: {fileID: 608521323}
   m_Layer: 0
   m_Name: Level
   m_TagString: Untagged
@@ -536,6 +539,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &608521323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 608521321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 139e4446b9446f54f8875d6960cf75ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _infosNiveau: {fileID: 11400000, guid: ee29f6b9dfecbe1419ce61adf582fd8b, type: 2}
 --- !u!1 &1367545246
 GameObject:
   m_ObjectHideFlags: 0
