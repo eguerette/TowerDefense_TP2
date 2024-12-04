@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbff927523e069c408f4e9c123f4ef5b, type: 3}
   m_Name: Niveau
   m_EditorClassIdentifier: 
-  temps: 4.041248
+  temps: 0
   tempsInitial: 30
-  Coins: 35
+  Coins: 0
