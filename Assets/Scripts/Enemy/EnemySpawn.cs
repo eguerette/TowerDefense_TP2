@@ -7,18 +7,15 @@ public class EnemySpawn : MonoBehaviour
 {   
     public GameObject enemy;
     public GameObject enemySpawnPoint;
+    private bool spawned = false;
+    private float spawnCooldown = 10f;
+    private float spawnCooldownReset = 10f;
 
-    private float timer = 0f;
-    private Turret _turretScript;
     void Update()
     {
-
-        timer += Time.deltaTime;
-
-        if(timer == 5f) {
+        if(spawned == false) {
 
             Spawn();
-            timer = 0f;
         }
     }
 
@@ -26,6 +23,17 @@ public class EnemySpawn : MonoBehaviour
 
         Transform _enemy = Instantiate(enemy.transform, enemySpawnPoint.transform.position, quaternion.identity);
         _enemy.transform.rotation = enemySpawnPoint.transform.rotation;
+
+        spawnCooldown = spawnCooldownReset;
+        spawned = true;
+        StartCoroutine(SpawnRate());
+
+    }
+
+    private IEnumerator SpawnRate() {
+
+        yield return new WaitForSeconds(spawnCooldown);
+        spawned = false;
 
     }
 }

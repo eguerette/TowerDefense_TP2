@@ -240,14 +240,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83f01a07ef23a3f47bc7770007f1f44d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: {fileID: 75644224}
+  enemy: {fileID: 1478927914296996915, guid: c32b6c2dfad4cd64ebf93e4073568177, type: 3}
   enemySpawnPoint: {fileID: 42624500}
---- !u!1 &75644224 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1478927914296996915, guid: c32b6c2dfad4cd64ebf93e4073568177,
-    type: 3}
-  m_PrefabInstance: {fileID: 6547224552370325599}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &116710628
 GameObject:
   m_ObjectHideFlags: 0
@@ -897,6 +891,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3718503262129746536, guid: a4245869210fb6344babddb97a374bfc,
         type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3718503262129746536, guid: a4245869210fb6344babddb97a374bfc,
+        type: 3}
       propertyPath: m_TagString
       value: Turret
       objectReference: {fileID: 0}
@@ -990,79 +989,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4245869210fb6344babddb97a374bfc, type: 3}
---- !u!1001 &6547224552370325599
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 946112721316649034, guid: c32b6c2dfad4cd64ebf93e4073568177,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.02
-      objectReference: {fileID: 0}
-    - target: {fileID: 946112721316649034, guid: c32b6c2dfad4cd64ebf93e4073568177,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 10.07
-      objectReference: {fileID: 0}
-    - target: {fileID: 946112721316649034, guid: c32b6c2dfad4cd64ebf93e4073568177,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 30.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 946112721316649034, guid: c32b6c2dfad4cd64ebf93e4073568177,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 946112721316649034, guid: c32b6c2dfad4cd64ebf93e4073568177,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 946112721316649034, guid: c32b6c2dfad4cd64ebf93e4073568177,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 946112721316649034, guid: c32b6c2dfad4cd64ebf93e4073568177,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 946112721316649034, guid: c32b6c2dfad4cd64ebf93e4073568177,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 946112721316649034, guid: c32b6c2dfad4cd64ebf93e4073568177,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 946112721316649034, guid: c32b6c2dfad4cd64ebf93e4073568177,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1478927914296996915, guid: c32b6c2dfad4cd64ebf93e4073568177,
-        type: 3}
-      propertyPath: m_Name
-      value: Enemy
-      objectReference: {fileID: 0}
-    - target: {fileID: 7901549977545431805, guid: c32b6c2dfad4cd64ebf93e4073568177,
-        type: 3}
-      propertyPath: _Goal
-      value: 
-      objectReference: {fileID: 491489896}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c32b6c2dfad4cd64ebf93e4073568177, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1072,4 +998,3 @@ SceneRoots:
   - {fileID: 3835028126430909554}
   - {fileID: 491489896}
   - {fileID: 42624504}
-  - {fileID: 6547224552370325599}

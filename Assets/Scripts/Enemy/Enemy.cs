@@ -6,13 +6,16 @@ using UnityEngine.UIElements;
 public class Enemy : MonoBehaviour
 {
     public EnemyInfo _info;
-    public Transform _Goal;
+    private Goal _goalInfo;
+    private Transform _Goal;
     public float mvtSpeed;
     private float enemylife;
 
   
     private void Start()
     {
+        _Goal = _goalInfo._goalLocation;
+
         if (gameObject.tag == "Enemy") {
 
             enemylife = _info.life1;
@@ -28,7 +31,6 @@ public class Enemy : MonoBehaviour
             enemylife = _info.life3;
             mvtSpeed = _info.speed3;
         }
-        
     }
 
     void Update()
