@@ -12,6 +12,7 @@ TagManager:
   - Turret
   - Turret2
   - Turret3
+  - Spawn
   layers:
   - Default
   - TransparentFX
