@@ -2863,6 +2863,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Turret Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 4495492695540333574, guid: 874fd8527f5aa484093e2625ee358449,
+        type: 3}
+      propertyPath: _infoTurret
+      value: 
+      objectReference: {fileID: 11400000, guid: 0d0eedfbe66cf3c4bba31677da379123,
+        type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4117,7 +4123,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
