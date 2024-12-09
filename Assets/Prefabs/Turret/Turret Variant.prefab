@@ -64,6 +64,28 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2319382799879004290, guid: a4245869210fb6344babddb97a374bfc,
+        type: 3}
+      propertyPath: bullet
+      value: 
+      objectReference: {fileID: 4323498653876026451, guid: 714762f33b3f5d443a6dea3c2b9776d5,
+        type: 3}
+    - target: {fileID: 2319382799879004290, guid: a4245869210fb6344babddb97a374bfc,
+        type: 3}
+      propertyPath: _infoTurret
+      value: 
+      objectReference: {fileID: 11400000, guid: 0d0eedfbe66cf3c4bba31677da379123,
+        type: 2}
+    - target: {fileID: 2319382799879004290, guid: a4245869210fb6344babddb97a374bfc,
+        type: 3}
+      propertyPath: bulletSpawnPoint
+      value: 
+      objectReference: {fileID: 6324531376126851030}
+    - target: {fileID: 2319382799879004290, guid: a4245869210fb6344babddb97a374bfc,
+        type: 3}
+      propertyPath: defaultAnglePoint
+      value: 
+      objectReference: {fileID: 3526546922548704008}
     - target: {fileID: 3718503262129746536, guid: a4245869210fb6344babddb97a374bfc,
         type: 3}
       propertyPath: m_Name
@@ -74,3 +96,15 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4245869210fb6344babddb97a374bfc, type: 3}
+--- !u!1 &3526546922548704008 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3360783915306987404, guid: a4245869210fb6344babddb97a374bfc,
+    type: 3}
+  m_PrefabInstance: {fileID: 2185134877320092804}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6324531376126851030 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5302451247534664530, guid: a4245869210fb6344babddb97a374bfc,
+    type: 3}
+  m_PrefabInstance: {fileID: 2185134877320092804}
+  m_PrefabAsset: {fileID: 0}
