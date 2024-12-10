@@ -27,36 +27,47 @@ public class EnemySpawn : MonoBehaviour
     {   
         if(spawned == false) {
 
-            Spawn();
+            SpawnLvl1();
         }
     }
 
-    private void Spawn() {
+    private void SpawnLvl1() {
 
-        if (_infoNiveau.temps <=30 && _infoNiveau.temps > 15) {
-
-            Transform _enemy = Instantiate(enemy.transform, enemySpawnPoint.transform.position, quaternion.identity);
-            _enemy.transform.rotation = enemySpawnPoint.transform.rotation;
-        }
+        Transform _enemy = Instantiate(enemy.transform, enemySpawnPoint.transform.position, quaternion.identity);
+        _enemy.transform.rotation = enemySpawnPoint.transform.rotation;
         
-        if (_infoNiveau.temps <= 15 && _infoNiveau.temps > 5) {
-
-            Transform _enemy1 = Instantiate(enemy1.transform, enemySpawnPoint.transform.position, quaternion.identity);
-            _enemy1.transform.rotation = enemySpawnPoint.transform.rotation;
-        }
-
-        if (_infoNiveau.temps < 5) {
-
-            Transform _enemy2 = Instantiate(enemy2.transform, enemySpawnPoint.transform.position, quaternion.identity);
-            _enemy2.transform.rotation = enemySpawnPoint.transform.rotation;
-        }
-
         spawnCooldown = spawnCooldownReset;
         spawned = true;
 
         StartCoroutine(SpawnRate());
-
     }
+
+    // private void Spawn() {
+
+    //     if (_infoNiveau.temps <=30 && _infoNiveau.temps > 15) {
+
+    //         Transform _enemy = Instantiate(enemy.transform, enemySpawnPoint.transform.position, quaternion.identity);
+    //         _enemy.transform.rotation = enemySpawnPoint.transform.rotation;
+    //     }
+        
+    //     if (_infoNiveau.temps <= 15 && _infoNiveau.temps > 5) {
+
+    //         Transform _enemy1 = Instantiate(enemy1.transform, enemySpawnPoint.transform.position, quaternion.identity);
+    //         _enemy1.transform.rotation = enemySpawnPoint.transform.rotation;
+    //     }
+
+    //     if (_infoNiveau.temps < 5) {
+
+    //         Transform _enemy2 = Instantiate(enemy2.transform, enemySpawnPoint.transform.position, quaternion.identity);
+    //         _enemy2.transform.rotation = enemySpawnPoint.transform.rotation;
+    //     }
+
+    //     spawnCooldown = spawnCooldownReset;
+    //     spawned = true;
+
+    //     StartCoroutine(SpawnRate());
+
+    // }
 
     private IEnumerator SpawnRate() {
 
