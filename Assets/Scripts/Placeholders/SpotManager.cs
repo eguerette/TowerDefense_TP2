@@ -23,11 +23,9 @@ public class SpotManager : MonoBehaviour
             }
 
             other.transform.SetParent(spotTransform);
-
-            Transform turretParent = other.transform.parent;
-            if (turretParent != null && turretParent.CompareTag("Turret"))
+            if (other.CompareTag("TurretBody") && other.CompareTag("Turret"))
             {
-                turretParent.SetParent(spotTransform);
+                other.transform.SetParent(spotTransform);
             }
         }
     }
