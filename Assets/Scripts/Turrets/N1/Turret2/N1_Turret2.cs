@@ -12,6 +12,8 @@ public class N1_Turret2 : MonoBehaviour
     [SerializeField] private GameObject bulletSpawnPoint;
     [SerializeField] private GameObject bullet;
     [SerializeField] private GameObject defaultAnglePoint;
+    [SerializeField] private AudioSource _audio;
+    [SerializeField] private AudioClip _shot;
     private bool targetLocked;
     private bool shot = false;
     private float shotCooldown;
@@ -43,6 +45,7 @@ public class N1_Turret2 : MonoBehaviour
         Transform _bullet = Instantiate(bullet.transform, bulletSpawnPoint.transform.position, quaternion.identity);
         _bullet.transform.rotation = bulletSpawnPoint.transform.rotation;
 
+        _audio.PlayOneShot(_shot);
         shotCooldown = _infoTurret.fireRateCooldown1;
         shot = true;
         StartCoroutine(ShootingDelay());

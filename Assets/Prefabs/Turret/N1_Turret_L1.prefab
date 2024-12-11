@@ -285,6 +285,8 @@ MonoBehaviour:
   bulletSpawnPoint: {fileID: 6051596593765870894}
   bullet: {fileID: 458200166423813013, guid: d52af98d98d8e614cbb5230618d2d4f5, type: 3}
   defaultAnglePoint: {fileID: 7257648488215335164}
+  _audio: {fileID: 602606971584701869}
+  _shot: {fileID: 8300000, guid: 3b67f9ba67a4c194dbc0f031d279bce9, type: 3}
 --- !u!82 &602606971584701869
 AudioSource:
   m_ObjectHideFlags: 0
