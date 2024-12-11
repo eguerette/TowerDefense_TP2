@@ -521,6 +521,7 @@ GameObject:
   - component: {fileID: 4000010273486942}
   - component: {fileID: 95000011442643512}
   - component: {fileID: 6880642525172387343}
+
   m_Layer: 0
   m_Name: Bat_Red
   m_TagString: Untagged
@@ -662,6 +663,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+
 --- !u!1 &1000011643250032
 GameObject:
   m_ObjectHideFlags: 0

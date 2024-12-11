@@ -517,6 +517,7 @@ Transform:
   - {fileID: 8155674906364928094}
   - {fileID: 9113451281992875328}
   - {fileID: 1227736873514332271}
+
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &309817667282326702
@@ -7158,6 +7159,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+
 --- !u!1 &4781821880568784505
 GameObject:
   m_ObjectHideFlags: 0
