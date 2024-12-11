@@ -240,8 +240,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83f01a07ef23a3f47bc7770007f1f44d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: {fileID: 5100394601142705189, guid: 13a3807b9cfbd8f4da28d5aef3131b97, type: 3}
-  enemy1: {fileID: 1630824834615343395, guid: 5f3ba889c03f95d4090cbf397b7e6443, type: 3}
+  enemy: {fileID: 1390701627854531786, guid: c421aac5815af0242b6ed264e6ba38eb, type: 3}
+  enemy1: {fileID: 2391710747038385925, guid: 5f3ba889c03f95d4090cbf397b7e6443, type: 3}
   enemy2: {fileID: 3048620458510512582, guid: 2325c6d7bdfc87a4a93595c3c7de4c0c, type: 3}
   enemySpawnPoint: {fileID: 42624500}
   Goal: {fileID: 491489896}
