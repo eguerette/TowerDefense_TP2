@@ -1,14 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
-using JetBrains.Annotations;
-using Unity.VisualScripting;
-using UnityEditor.ShaderGraph.Internal;
 using UnityEngine;
 
-public class Bullet : MonoBehaviour
-{   
-    public float bulletSpeed;
-    public float lifeTime = 1;
+public class N1_Bullet2 : MonoBehaviour
+{
+    [SerializeField] private float bulletSpeed;
+    [SerializeField] private float lifeTime = 10f;
     public GameObject turret;
 
     void Update()
@@ -19,7 +16,7 @@ public class Bullet : MonoBehaviour
 
     void OnTriggerEnter(Collider other) {
 
-        if (other.tag == "Enemy") {
+        if (other.tag == "Enemy" || other.tag == "Enemy2" || other.tag == "Enemy3") {
 
             Destroy(gameObject);
         }

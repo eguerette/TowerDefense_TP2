@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Niveau
   m_EditorClassIdentifier: 
   temps: 0
-  tempsInitial: 30
+  tempsInitial: 150
   Coins: 0

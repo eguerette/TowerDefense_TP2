@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using Unity.Mathematics;
 using UnityEngine;
 
-public class N1_Turret1 : MonoBehaviour
+public class N1_Turret3 : MonoBehaviour
 {
-    [SerializeField] private TurretInfo _infoTurret;
+     [SerializeField] private TurretInfo _infoTurret;
     [SerializeField] private GameObject target;
 
     [SerializeField] private GameObject turretHead;
@@ -18,7 +18,7 @@ public class N1_Turret1 : MonoBehaviour
 
     void Start() {
 
-        shotCooldown = _infoTurret.fireRateCooldown1;
+        shotCooldown = _infoTurret.fireRateCooldown3;
     }
 
      void Update() {
