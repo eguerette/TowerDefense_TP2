@@ -2,11 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpotColor : MonoBehaviour
+public class SpotManager : MonoBehaviour
 {
     private Renderer spotMaterial;
 
-    // Start is called before the first frame update
+    public Transform spotTransform;
+
     void Start()
     {
         spotMaterial = GetComponent<Renderer>();
@@ -16,20 +17,17 @@ public class SpotColor : MonoBehaviour
     {
         if (other.CompareTag("TurretBody"))
         {
-            if (spotMaterial != null) 
+            if (spotMaterial != null)
             {
                 spotMaterial.material.color = Color.green;
             }
-        }
-    }
 
-    public void OnTriggerExit(Collider other) 
-    {
-        if (other.CompareTag("TurretBody"))
-        {
-            if (spotMaterial != null)
+            other.transform.SetParent(spotTransform);
+
+            Transform turretParent = other.transform.parent;
+            if (turretParent != null && turretParent.CompareTag("Turret"))
             {
-                spotMaterial.material.color = Color.red;
+                turretParent.SetParent(spotTransform);
             }
         }
     }

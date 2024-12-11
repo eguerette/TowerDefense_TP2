@@ -86,10 +86,25 @@ PrefabInstance:
       propertyPath: defaultAnglePoint
       value: 
       objectReference: {fileID: 3526546922548704008}
+    - target: {fileID: 3360783915306987404, guid: a4245869210fb6344babddb97a374bfc,
+        type: 3}
+      propertyPath: m_TagString
+      value: Turret
+      objectReference: {fileID: 0}
     - target: {fileID: 3718503262129746536, guid: a4245869210fb6344babddb97a374bfc,
         type: 3}
       propertyPath: m_Name
       value: Turret Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5302451247534664530, guid: a4245869210fb6344babddb97a374bfc,
+        type: 3}
+      propertyPath: m_TagString
+      value: TurretBody
+      objectReference: {fileID: 0}
+    - target: {fileID: 6433106923435159036, guid: a4245869210fb6344babddb97a374bfc,
+        type: 3}
+      propertyPath: m_TagString
+      value: TurretBody
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

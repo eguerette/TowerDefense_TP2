@@ -4,24 +4,20 @@ using UnityEngine;
 
 public class TurretUISpawner : MonoBehaviour
 {
-    public Transform handTransform; // Reference to the player's hand
-    public GameObject[] turretPrefabs; // Array to store turret prefabs
+    public GameObject[] turretPrefabs;
+    public Transform spawnPoint;
+    public Transform controllerTransform;
 
     public void SpawnTurret(int turretIndex)
     {
         if (turretIndex >= 0 && turretIndex < turretPrefabs.Length)
         {
-            // Destroy any existing object in hand (optional)
-            foreach (Transform child in handTransform)
-            {
-                Destroy(child.gameObject);
-            }
-
-            // Instantiate the selected turret prefab
-            GameObject spawnedTurret = Instantiate(turretPrefabs[turretIndex], handTransform.position, handTransform.rotation);
+            GameObject spawnedTurret = Instantiate(turretPrefabs[turretIndex], spawnPoint.position, spawnPoint.rotation);
             
-            // Optionally, parent the turret to the hand
-            spawnedTurret.transform.SetParent(handTransform);
+            spawnedTurret.transform.SetParent(controllerTransform);
+
+            spawnedTurret.transform.localPosition = Vector3.zero;
+            spawnedTurret.transform.localRotation = Quaternion.identity;
         }
         else
         {
