@@ -10,6 +10,7 @@ public class SpawnerPointGenerator : MonoBehaviour
     [SerializeField] private float maxDistance = 5f;
     [SerializeField] private float maxHeight = 2f;
 
+
     private void Awake(){
         if(Instance != null && Instance != this)
         {

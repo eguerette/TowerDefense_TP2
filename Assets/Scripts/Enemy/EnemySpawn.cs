@@ -59,15 +59,19 @@ public class EnemySpawn : MonoBehaviour
     public GameObject enemy1;
     public GameObject enemy2;
     public GameObject enemySpawnPoint;
-    public Transform Goal;
+    private Transform Goal;
     public InfosNiveau _infoNiveau;
 
     private bool spawned = false;
     private float spawnCooldown = 10f;
     private float spawnCooldownReset = 10f;
 
+    private Goal goalInfo;
+
     void Start()
     {
+        Goal = goalInfo._goal;
+
         gameObject.transform.LookAt(Goal.position);
 
         StartCoroutine(SpawnEnemy1AfterDelay(25f));

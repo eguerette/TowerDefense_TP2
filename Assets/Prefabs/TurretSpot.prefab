@@ -120,4 +120,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d961c734840850f4487861a7af44c902, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sphereCollider: {fileID: 8910951240757135294, guid: e731f0458047aba4baa918ec229118e3,
+    type: 3}
+  sphereCollider2: {fileID: 7227606859790598044, guid: 59d1f978677d8dc4ab6f770e9954c208,
+    type: 3}
+  sphereCollider3: {fileID: 381243528486867415, guid: 6e0976bff251ac6418241da20500e38d,
+    type: 3}
   spotTransform: {fileID: 9050880068687033630}

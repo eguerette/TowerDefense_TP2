@@ -9,11 +9,11 @@ EditorBuildSettings:
     path: Assets/Scenes/ScenesFinales/Intro.unity
     guid: a6ed9fbd428f73545972f7b9e60f0ee6
   - enabled: 1
-    path: Assets/Scenes/Niveau 1.unity
-    guid: 6fcf3ce1004099646815604e7b70d603
+    path: Assets/Scenes/ScenesFinales/Niveau1.unity
+    guid: 920349e6a461162489c328058430d3ee
   - enabled: 1
-    path: Assets/Scenes/Niveau 2.unity
-    guid: 784255b48b9a3924089686e285419298
+    path: Assets/Scenes/ScenesFinales/Niveau2.unity
+    guid: e6657a03106099a47a48fffd13b55675
   - enabled: 1
     path: Assets/Scenes/ScenesFinales/End.unity
     guid: b92142e7ca024664199b9f0417f288b5

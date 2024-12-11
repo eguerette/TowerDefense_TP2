@@ -7,7 +7,7 @@ using TMPro;
 public class Timer : MonoBehaviour
 {
     [SerializeField] private InfosNiveau _infosNiveau;
-    //[SerializeField] private TMP_Text timerText;
+    [SerializeField] private TMP_Text timerText;
 
     private bool _decompteActif = false;
 
@@ -26,7 +26,7 @@ public class Timer : MonoBehaviour
 
                 int minutes = Mathf.FloorToInt(_infosNiveau.temps / 60);
                 int secondes = Mathf.FloorToInt(_infosNiveau.temps % 60);
-                //timerText.text = string.Format("{0:00}:{1:00}", minutes, secondes);
+                timerText.text = string.Format("{0:00}:{1:00}", minutes, secondes);
 
             }
             else
@@ -34,7 +34,7 @@ public class Timer : MonoBehaviour
                 _infosNiveau.temps = 0;
                 _decompteActif = false;
 
-                //timerText.text = "00:00";
+                timerText.text = "00:00";
 
                 Scene currentScene = SceneManager.GetActiveScene();
                 int currentSceneIndex = currentScene.buildIndex;
@@ -55,6 +55,6 @@ public class Timer : MonoBehaviour
 
         int minutes = Mathf.FloorToInt(_infosNiveau.temps / 60);
         int secondes = Mathf.FloorToInt(_infosNiveau.temps % 60);
-        //timerText.text = string.Format("{0:00}:{1:00}", minutes, secondes);
+        timerText.text = string.Format("{0:00}:{1:00}", minutes, secondes);
     }
 }
