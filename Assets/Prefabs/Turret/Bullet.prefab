@@ -114,14 +114,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4323498653876026451}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c356310a1aae0e54688bbb96aaf6cfbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   bulletSpeed: 200
   lifeTime: 1
-  _infoTurret: {fileID: 11400000, guid: 0d0eedfbe66cf3c4bba31677da379123, type: 2}
   turret: {fileID: 3718503262129746536, guid: a4245869210fb6344babddb97a374bfc, type: 3}
 --- !u!54 &9163136786474156239
 Rigidbody:
