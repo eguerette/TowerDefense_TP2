@@ -1,7 +1,8 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemySpawn : MonoBehaviour
+public class EnemySpawnLvl2 : MonoBehaviour
 {
     public GameObject enemy;
     public GameObject enemy1;
