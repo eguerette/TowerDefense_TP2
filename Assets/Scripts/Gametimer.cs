@@ -35,6 +35,15 @@ public class Timer : MonoBehaviour
                 _decompteActif = false;
 
                 //timerText.text = "00:00";
+
+                Scene currentScene = SceneManager.GetActiveScene();
+                int currentSceneIndex = currentScene.buildIndex;
+                int nextSceneIndex = currentSceneIndex ++;
+
+                if (nextSceneIndex < SceneManager.sceneCountInBuildSettings) {
+
+                    SceneManager.LoadScene(nextSceneIndex);
+                }
             }
         }
     }
