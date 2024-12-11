@@ -241,8 +241,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 1390701627854531786, guid: c421aac5815af0242b6ed264e6ba38eb, type: 3}
-  enemy1: {fileID: 2391710747038385925, guid: 5f3ba889c03f95d4090cbf397b7e6443, type: 3}
-  enemy2: {fileID: 3048620458510512582, guid: 2325c6d7bdfc87a4a93595c3c7de4c0c, type: 3}
+  enemy1: {fileID: 5307300382092805904, guid: fbd9216d761bf1946ad53475a3a39300, type: 3}
+  enemy2: {fileID: 6640119987282528063, guid: da5d764985738364f8f168b156b88bb4, type: 3}
   enemySpawnPoint: {fileID: 42624500}
   Goal: {fileID: 491489896}
   _infoNiveau: {fileID: 11400000, guid: ee29f6b9dfecbe1419ce61adf582fd8b, type: 2}
