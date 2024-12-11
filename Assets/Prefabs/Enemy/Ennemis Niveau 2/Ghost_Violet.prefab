@@ -1,10 +1,7 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
-<<<<<<<< HEAD:Assets/Prefabs/Enemy/N1_Enemy2.prefab
 --- !u!1 &509013938749833357
-========
---- !u!1 &1000010355514078
->>>>>>>> parent of 0c74e42 (enemy done + spawn lvl 2):Assets/Prefabs/Enemy/Ennemis Niveau 2/Ghost_Violet.prefab
+
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12,31 +9,21 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<<< HEAD:Assets/Prefabs/Enemy/N1_Enemy2.prefab
   - component: {fileID: 3734179449616492474}
   m_Layer: 0
   m_Name: WingRight02
-========
-  - component: {fileID: 4000010217177680}
-  m_Layer: 0
-  m_Name: RootControl
->>>>>>>> parent of 0c74e42 (enemy done + spawn lvl 2):Assets/Prefabs/Enemy/Ennemis Niveau 2/Ghost_Violet.prefab
+
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<<< HEAD:Assets/Prefabs/Enemy/N1_Enemy2.prefab
 --- !u!4 &3734179449616492474
-========
---- !u!4 &4000010217177680
->>>>>>>> parent of 0c74e42 (enemy done + spawn lvl 2):Assets/Prefabs/Enemy/Ennemis Niveau 2/Ghost_Violet.prefab
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<<< HEAD:Assets/Prefabs/Enemy/N1_Enemy2.prefab
   m_GameObject: {fileID: 509013938749833357}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.05292817, z: -0, w: 0.99859834}
@@ -111,20 +98,7 @@ Transform:
   m_Father: {fileID: 3540348177243224345}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1506243263291513463
-========
-  m_GameObject: {fileID: 1000010355514078}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.000048527047, y: 0.0067319004, z: -5.442644e-20}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 4000012930506918}
-  - {fileID: 4000014281392204}
-  m_Father: {fileID: 4000011760848564}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1000010793084056
->>>>>>>> parent of 0c74e42 (enemy done + spawn lvl 2):Assets/Prefabs/Enemy/Ennemis Niveau 2/Ghost_Violet.prefab
+
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -132,31 +106,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<<< HEAD:Assets/Prefabs/Enemy/N1_Enemy2.prefab
   - component: {fileID: 6404931132606636389}
   m_Layer: 0
   m_Name: WingRight01
-========
-  - component: {fileID: 4000012653453854}
-  m_Layer: 0
-  m_Name: RIG
->>>>>>>> parent of 0c74e42 (enemy done + spawn lvl 2):Assets/Prefabs/Enemy/Ennemis Niveau 2/Ghost_Violet.prefab
+
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<<< HEAD:Assets/Prefabs/Enemy/N1_Enemy2.prefab
 --- !u!4 &6404931132606636389
-========
---- !u!4 &4000012653453854
->>>>>>>> parent of 0c74e42 (enemy done + spawn lvl 2):Assets/Prefabs/Enemy/Ennemis Niveau 2/Ghost_Violet.prefab
+
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<<< HEAD:Assets/Prefabs/Enemy/N1_Enemy2.prefab
   m_GameObject: {fileID: 1506243263291513463}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7899999, y: -0.5516475, z: -0.1226226, w: -0.23779996}
@@ -168,19 +133,7 @@ Transform:
   m_Father: {fileID: 445387143776466121}
   m_LocalEulerAnglesHint: {x: -32.546364, y: 170.16002, z: -115.198746}
 --- !u!1 &1630824834615343395
-========
-  m_GameObject: {fileID: 1000010793084056}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 4000011760848564}
-  m_Father: {fileID: 4000013931392504}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1000011197318142
->>>>>>>> parent of 0c74e42 (enemy done + spawn lvl 2):Assets/Prefabs/Enemy/Ennemis Niveau 2/Ghost_Violet.prefab
+
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -188,7 +141,6 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<<< HEAD:Assets/Prefabs/Enemy/N1_Enemy2.prefab
   - component: {fileID: 3540348177243224345}
   - component: {fileID: 4982482749847524559}
   - component: {fileID: 1985323502774070060}
@@ -198,27 +150,18 @@ GameObject:
   m_Layer: 0
   m_Name: N1_Enemy2
   m_TagString: Enemy
-========
-  - component: {fileID: 4000012691124702}
-  m_Layer: 0
-  m_Name: TailJoint
-  m_TagString: Untagged
->>>>>>>> parent of 0c74e42 (enemy done + spawn lvl 2):Assets/Prefabs/Enemy/Ennemis Niveau 2/Ghost_Violet.prefab
+
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<<< HEAD:Assets/Prefabs/Enemy/N1_Enemy2.prefab
 --- !u!4 &3540348177243224345
-========
---- !u!4 &4000012691124702
->>>>>>>> parent of 0c74e42 (enemy done + spawn lvl 2):Assets/Prefabs/Enemy/Ennemis Niveau 2/Ghost_Violet.prefab
+
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<<< HEAD:Assets/Prefabs/Enemy/N1_Enemy2.prefab
   m_GameObject: {fileID: 1630824834615343395}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -231,63 +174,15 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &4982482749847524559
-========
-  m_GameObject: {fileID: 1000011197318142}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0.0037706725, y: 0.000038476253, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4000014281392204}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1000011296433714
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4000013931392504}
-  - component: {fileID: 95000010452426964}
-  m_Layer: 0
-  m_Name: Ghost_Violet
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4000013931392504
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1000011296433714}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 4000013229559746}
-  - {fileID: 4000012653453854}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &95000010452426964
->>>>>>>> parent of 0c74e42 (enemy done + spawn lvl 2):Assets/Prefabs/Enemy/Ennemis Niveau 2/Ghost_Violet.prefab
+
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<<< HEAD:Assets/Prefabs/Enemy/N1_Enemy2.prefab
   m_GameObject: {fileID: 1630824834615343395}
-========
-  m_GameObject: {fileID: 1000011296433714}
->>>>>>>> parent of 0c74e42 (enemy done + spawn lvl 2):Assets/Prefabs/Enemy/Ennemis Niveau 2/Ghost_Violet.prefab
+
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 0f3694e05bac46468323bf675df7bc31, type: 2}
@@ -301,7 +196,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
-<<<<<<<< HEAD:Assets/Prefabs/Enemy/N1_Enemy2.prefab
 --- !u!65 &1985323502774070060
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -366,6 +260,7 @@ MonoBehaviour:
   _infoNiveau: {fileID: 11400000, guid: ee29f6b9dfecbe1419ce61adf582fd8b, type: 2}
   _animationController: {fileID: 4982482749847524559}
 --- !u!82 &-1396145131705601894
+
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -380,6 +275,7 @@ AudioSource:
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
+
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -389,6 +285,7 @@ AudioSource:
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
+
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -422,6 +319,7 @@ AudioSource:
     - serializedVersion: 3
       time: 0
       value: 0
+
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -462,9 +360,7 @@ AudioSource:
     m_PostInfinity: 2
     m_RotationOrder: 4
 --- !u!1 &1935410702695555168
-========
---- !u!1 &1000011724214278
->>>>>>>> parent of 0c74e42 (enemy done + spawn lvl 2):Assets/Prefabs/Enemy/Ennemis Niveau 2/Ghost_Violet.prefab
+
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -472,76 +368,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<<< HEAD:Assets/Prefabs/Enemy/N1_Enemy2.prefab
   - component: {fileID: 8396482560782184185}
   - component: {fileID: 5413211538197796181}
-========
-  - component: {fileID: 4000014281392204}
-  m_Layer: 0
-  m_Name: RootJoint
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4000014281392204
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1000011724214278}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -0, y: 0, z: 5.442644e-20}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 4000010860599848}
-  - {fileID: 4000012691124702}
-  m_Father: {fileID: 4000010217177680}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1000011726635188
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4000012930506918}
-  m_Layer: 0
-  m_Name: HeadControl
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4000012930506918
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1000011726635188}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.8163916e-19, y: 0.005925343, z: -4.2774613e-19}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4000010217177680}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1000011829190438
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4000010762647616}
->>>>>>>> parent of 0c74e42 (enemy done + spawn lvl 2):Assets/Prefabs/Enemy/Ennemis Niveau 2/Ghost_Violet.prefab
+
   m_Layer: 0
   m_Name: Swarm09
   m_TagString: Untagged
@@ -549,113 +378,33 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<<< HEAD:Assets/Prefabs/Enemy/N1_Enemy2.prefab
 --- !u!4 &8396482560782184185
-========
---- !u!4 &4000010762647616
->>>>>>>> parent of 0c74e42 (enemy done + spawn lvl 2):Assets/Prefabs/Enemy/Ennemis Niveau 2/Ghost_Violet.prefab
+
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<<< HEAD:Assets/Prefabs/Enemy/N1_Enemy2.prefab
   m_GameObject: {fileID: 1935410702695555168}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
-========
-  m_GameObject: {fileID: 1000011829190438}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -0.0037706725, y: 8.3266725e-19, z: -1.2325951e-34}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4000010860599848}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1000011922507098
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4000011760848564}
-  m_Layer: 0
-  m_Name: GhostControl
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4000011760848564
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1000011922507098}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 4000010217177680}
-  - {fileID: 4000011549681188}
-  m_Father: {fileID: 4000012653453854}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1000012351108974
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4000012799328290}
-  - component: {fileID: 137000013712094104}
-  m_Layer: 0
-  m_Name: LV1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4000012799328290
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1000012351108974}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
->>>>>>>> parent of 0c74e42 (enemy done + spawn lvl 2):Assets/Prefabs/Enemy/Ennemis Niveau 2/Ghost_Violet.prefab
+
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-<<<<<<<< HEAD:Assets/Prefabs/Enemy/N1_Enemy2.prefab
   m_Father: {fileID: 3540348177243224345}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &5413211538197796181
-========
-  m_Father: {fileID: 4000013229559746}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!137 &137000013712094104
->>>>>>>> parent of 0c74e42 (enemy done + spawn lvl 2):Assets/Prefabs/Enemy/Ennemis Niveau 2/Ghost_Violet.prefab
+
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<<< HEAD:Assets/Prefabs/Enemy/N1_Enemy2.prefab
+
   m_GameObject: {fileID: 1935410702695555168}
-========
-  m_GameObject: {fileID: 1000012351108974}
->>>>>>>> parent of 0c74e42 (enemy done + spawn lvl 2):Assets/Prefabs/Enemy/Ennemis Niveau 2/Ghost_Violet.prefab
+
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -696,7 +445,6 @@ SkinnedMeshRenderer:
   m_SkinnedMotionVectors: 1
   m_Mesh: {fileID: 1045958729939877041, guid: 6d38830f9e074b76b239dacd5a9cb3a0, type: 3}
   m_Bones:
-<<<<<<<< HEAD:Assets/Prefabs/Enemy/N1_Enemy2.prefab
   - {fileID: 5798611336535824621}
   - {fileID: 5043923103174862644}
   - {fileID: 445387143776466121}
@@ -711,23 +459,14 @@ SkinnedMeshRenderer:
   - {fileID: 1677844662278825761}
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 5798611336535824621}
-========
-  - {fileID: 4000014281392204}
-  - {fileID: 4000010860599848}
-  - {fileID: 4000010762647616}
-  - {fileID: 4000012691124702}
-  m_BlendShapeWeights: []
-  m_RootBone: {fileID: 4000014281392204}
->>>>>>>> parent of 0c74e42 (enemy done + spawn lvl 2):Assets/Prefabs/Enemy/Ennemis Niveau 2/Ghost_Violet.prefab
+
   m_AABB:
     m_Center: {x: -0.7485279, y: -0.32041705, z: 0.015267372}
     m_Extent: {x: 0.7517066, y: 0.64350116, z: 0.6666688}
   m_DirtyAABB: 0
-<<<<<<<< HEAD:Assets/Prefabs/Enemy/N1_Enemy2.prefab
+
 --- !u!1 &2432689995098607126
-========
---- !u!1 &1000013099861096
->>>>>>>> parent of 0c74e42 (enemy done + spawn lvl 2):Assets/Prefabs/Enemy/Ennemis Niveau 2/Ghost_Violet.prefab
+
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -735,31 +474,24 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<<< HEAD:Assets/Prefabs/Enemy/N1_Enemy2.prefab
+
   - component: {fileID: 7524007798439534814}
   m_Layer: 0
   m_Name: WingLeft02
-========
-  - component: {fileID: 4000011549681188}
-  m_Layer: 0
-  m_Name: TailControl
->>>>>>>> parent of 0c74e42 (enemy done + spawn lvl 2):Assets/Prefabs/Enemy/Ennemis Niveau 2/Ghost_Violet.prefab
+
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<<< HEAD:Assets/Prefabs/Enemy/N1_Enemy2.prefab
+
 --- !u!4 &7524007798439534814
-========
---- !u!4 &4000011549681188
->>>>>>>> parent of 0c74e42 (enemy done + spawn lvl 2):Assets/Prefabs/Enemy/Ennemis Niveau 2/Ghost_Violet.prefab
+
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<<< HEAD:Assets/Prefabs/Enemy/N1_Enemy2.prefab
   m_GameObject: {fileID: 2432689995098607126}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.05292817, z: -0, w: 0.99859834}
@@ -834,18 +566,7 @@ Transform:
   m_Father: {fileID: 7524007798439534814}
   m_LocalEulerAnglesHint: {x: 0, y: -27.45099, z: 0}
 --- !u!1 &2981155955186853417
-========
-  m_GameObject: {fileID: 1000013099861096}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.000010050796, y: 0.002961228, z: -6.04082e-20}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4000011760848564}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1000013449696370
->>>>>>>> parent of 0c74e42 (enemy done + spawn lvl 2):Assets/Prefabs/Enemy/Ennemis Niveau 2/Ghost_Violet.prefab
+
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -853,31 +574,25 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<<< HEAD:Assets/Prefabs/Enemy/N1_Enemy2.prefab
+
   - component: {fileID: 4917442201664946803}
   m_Layer: 0
   m_Name: WingLeft01
-========
-  - component: {fileID: 4000010860599848}
-  m_Layer: 0
-  m_Name: HeadJoint
->>>>>>>> parent of 0c74e42 (enemy done + spawn lvl 2):Assets/Prefabs/Enemy/Ennemis Niveau 2/Ghost_Violet.prefab
+
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<<< HEAD:Assets/Prefabs/Enemy/N1_Enemy2.prefab
+
 --- !u!4 &4917442201664946803
-========
---- !u!4 &4000010860599848
->>>>>>>> parent of 0c74e42 (enemy done + spawn lvl 2):Assets/Prefabs/Enemy/Ennemis Niveau 2/Ghost_Violet.prefab
+
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<<< HEAD:Assets/Prefabs/Enemy/N1_Enemy2.prefab
+
   m_GameObject: {fileID: 2981155955186853417}
   serializedVersion: 2
   m_LocalRotation: {x: 0.5516475, y: 0.7899999, z: -0.23779996, w: 0.1226226}
@@ -889,19 +604,7 @@ Transform:
   m_Father: {fileID: 445387143776466121}
   m_LocalEulerAnglesHint: {x: 32.546356, y: -170.1601, z: 64.80132}
 --- !u!1 &4665210023777170231
-========
-  m_GameObject: {fileID: 1000013449696370}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.005925343, y: 1.3156904e-18, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 4000010762647616}
-  m_Father: {fileID: 4000014281392204}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1000014122628518
->>>>>>>> parent of 0c74e42 (enemy done + spawn lvl 2):Assets/Prefabs/Enemy/Ennemis Niveau 2/Ghost_Violet.prefab
+
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -909,31 +612,25 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<<< HEAD:Assets/Prefabs/Enemy/N1_Enemy2.prefab
+
   - component: {fileID: 1677844662278825761}
   m_Layer: 0
   m_Name: Tail02
-========
-  - component: {fileID: 4000013229559746}
-  m_Layer: 0
-  m_Name: MESH
->>>>>>>> parent of 0c74e42 (enemy done + spawn lvl 2):Assets/Prefabs/Enemy/Ennemis Niveau 2/Ghost_Violet.prefab
+
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<<< HEAD:Assets/Prefabs/Enemy/N1_Enemy2.prefab
+
 --- !u!4 &1677844662278825761
-========
---- !u!4 &4000013229559746
->>>>>>>> parent of 0c74e42 (enemy done + spawn lvl 2):Assets/Prefabs/Enemy/Ennemis Niveau 2/Ghost_Violet.prefab
+
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<<< HEAD:Assets/Prefabs/Enemy/N1_Enemy2.prefab
+
   m_GameObject: {fileID: 4665210023777170231}
   serializedVersion: 2
   m_LocalRotation: {x: 0.05695425, y: 0.7334371, z: -0.052442316, w: 0.675334}
@@ -1041,15 +738,4 @@ Transform:
   - {fileID: 6404931132606636389}
   m_Father: {fileID: 5043923103174862644}
   m_LocalEulerAnglesHint: {x: -0.18783705, y: -178.50302, z: 150.85568}
-========
-  m_GameObject: {fileID: 1000014122628518}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 4000012799328290}
-  m_Father: {fileID: 4000013931392504}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>>> parent of 0c74e42 (enemy done + spawn lvl 2):Assets/Prefabs/Enemy/Ennemis Niveau 2/Ghost_Violet.prefab
+
