@@ -6,8 +6,10 @@ using UnityEngine.UIElements;
 public class Enemy : MonoBehaviour
 {
     public EnemyInfo _info;
+    public InfosNiveau _infoNiveau;
     public float mvtSpeed;
     private float enemylife;
+    public string _tag;
 
   
     private void Start()
@@ -46,6 +48,7 @@ public class Enemy : MonoBehaviour
             }
             else {
                 
+                _infoNiveau.Coins += 5;
                 Destroy(gameObject);
             }
             

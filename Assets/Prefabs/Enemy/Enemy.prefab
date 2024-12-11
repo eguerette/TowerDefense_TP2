@@ -147,5 +147,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _info: {fileID: 11400000, guid: 2c7eff52effeb064393acb9e7462ff88, type: 2}
-  _Goal: {fileID: 0}
+  _infoNiveau: {fileID: 11400000, guid: ee29f6b9dfecbe1419ce61adf582fd8b, type: 2}
   mvtSpeed: 0
