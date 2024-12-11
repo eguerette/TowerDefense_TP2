@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 32bef36b9b0649f4f935d2aca93d80da
+guid: 8f36490b483b6574784f7a7d88a798b8
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Quincrown
+  - Winter Selfie
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
