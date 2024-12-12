@@ -13,6 +13,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Swarm08 Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 2441167793069814399, guid: b29c4952abc03ef4bbf5cb0f0f20a967,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3054566516119258676, guid: b29c4952abc03ef4bbf5cb0f0f20a967,
         type: 3}
       propertyPath: m_LocalScale.x
