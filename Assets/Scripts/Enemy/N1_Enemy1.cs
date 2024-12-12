@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -48,6 +49,16 @@ public class N1_Enemy1 : MonoBehaviour
                 _animationController.SetBool("Dead", true);
             }
 
+        }
+
+        if (other.tag == "Goal") {
+
+            _infoNiveau.Goal1Destroyed = true;
+        }
+
+        if (other.tag == "Goal2") {
+
+            _infoNiveau.Goal2Destroyed = true;
         }
     }
 

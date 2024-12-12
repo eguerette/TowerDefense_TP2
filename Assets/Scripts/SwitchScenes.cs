@@ -5,7 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class SwitchScenes : MonoBehaviour
 {
-    private InfosNiveau _info;
+    [SerializeField] private InfosNiveau _info;
+
+    void Start() {
+
+        _info.Goal1Destroyed = false;
+        _info.Goal2Destroyed = false;
+    }
 
     void Update() {
 

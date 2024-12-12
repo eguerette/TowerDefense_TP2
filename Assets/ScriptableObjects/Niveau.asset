@@ -15,3 +15,5 @@ MonoBehaviour:
   temps: 0
   tempsInitial: 150
   Coins: 0
+  Goal1Destroyed: 0
+  Goal2Destroyed: 0
