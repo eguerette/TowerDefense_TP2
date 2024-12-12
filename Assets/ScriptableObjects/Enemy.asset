@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1289790c812e8db42ac6c8a27ba45bb7, type: 3}
   m_Name: Enemy
   m_EditorClassIdentifier: 
-  life1: 3
-  life2: 6
-  life3: 10
-  speed1: 5
-  speed2: 2.5
-  speed3: 1
+  life1: 2
+  life2: 4
+  life3: 6
+  speed1: 0.1
+  speed2: 0.08
+  speed3: 0.05
   enemy1: 0
   enemy2: 0
   enemy3: 0

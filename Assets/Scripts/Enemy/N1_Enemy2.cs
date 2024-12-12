@@ -48,6 +48,15 @@ public class N1_Enemy2 : MonoBehaviour
             }
 
         }
+        if (other.tag == "Goal") {
+
+            _infoNiveau.Goal1Destroyed = true;
+        }
+
+        if (other.tag == "Goal2") {
+
+            _infoNiveau.Goal2Destroyed = true;
+        }
     }
     private IEnumerator DestroyAfterDelay() {
 
