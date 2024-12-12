@@ -11,6 +11,7 @@ public class SwitchScenes : MonoBehaviour
 
         _info.Goal1Destroyed = false;
         _info.Goal2Destroyed = false;
+        _info.Coins = 0;
     }
 
     void Update() {

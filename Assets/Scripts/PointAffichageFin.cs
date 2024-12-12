@@ -11,6 +11,6 @@ public class PointAffichageFin : MonoBehaviour
 
     void Start() {
 
-        points.text = "Score: " + _info.Coins;
+        points.text = "Score: " + _info.Points;
     }
 }

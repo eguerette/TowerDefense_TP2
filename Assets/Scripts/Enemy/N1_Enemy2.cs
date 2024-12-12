@@ -43,6 +43,7 @@ public class N1_Enemy2 : MonoBehaviour
             else {
 
                 _infoNiveau.Coins += 10;
+                _infoNiveau.Points += 60;
                 StartCoroutine(DestroyAfterDelay());
                 _animationController.SetBool("Dead", true);
             }
