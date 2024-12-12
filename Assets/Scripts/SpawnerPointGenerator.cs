@@ -34,6 +34,11 @@ public class SpawnerPointGenerator : MonoBehaviour
         }
     }
 
+    public GameObject[] GetSpawnerPoints()
+    {
+        return GameObject.FindGameObjectsWithTag("spawnerPoint");
+    }
+
     private Vector3 GetRandomPosition(Vector3 startPosition)
     {
         float distance = Random.Range(minDistance, maxDistance);

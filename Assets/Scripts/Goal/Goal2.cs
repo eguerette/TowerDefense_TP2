@@ -5,6 +5,7 @@ using UnityEngine;
 public class Goal2 : MonoBehaviour
 {
     private InfosNiveau _info;
+    public Transform _goal2;
     private void OnTriggerEnter(Collider other) {
 
         if (other.tag == "Enemy" || other.tag == "Enemy2" || other.tag == "Enemy3") {

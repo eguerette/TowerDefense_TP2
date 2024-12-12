@@ -67,6 +67,7 @@ public class EnemySpawn : MonoBehaviour
     private float spawnCooldownReset = 10f;
 
     private Goal goalInfo;
+    private GameObject[] spawnerPoints;
 
     void Start()
     {
@@ -90,12 +91,16 @@ public class EnemySpawn : MonoBehaviour
         {
             SpawnLvl1();
         }
+
+        spawnerPoints = SpawnerPointGenerator.Instance.GetSpawnerPoints();
+        Debug.Log(spawnerPoints);
     }
 
     private void SpawnLvl1()
     {
-        Transform _enemy = Instantiate(enemy.transform, enemySpawnPoint.transform.position, Quaternion.identity);
-        _enemy.transform.rotation = enemySpawnPoint.transform.rotation;
+        GameObject spawnerPoint = spawnerPoints[Random.Range(0, spawnerPoints.Length)];
+        Transform _enemy = Instantiate(enemy.transform, spawnerPoint.transform.position, Quaternion.identity);
+        _enemy.transform.rotation = spawnerPoint.transform.rotation;
 
         spawnCooldown = spawnCooldownReset;
         spawned = true;

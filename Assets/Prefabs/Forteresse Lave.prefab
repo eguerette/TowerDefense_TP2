@@ -9082,6 +9082,7 @@ GameObject:
   - component: {fileID: 5614520493236733240}
   - component: {fileID: 5614520493239691418}
   - component: {fileID: 5614520493238709910}
+  - component: {fileID: 2966582397473608462}
   m_Layer: 0
   m_Name: Crystal
   m_TagString: Untagged
@@ -9154,6 +9155,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &2966582397473608462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5614520493236463174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9890ed0d85e2fda4689b809888e059de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _goal2: {fileID: 5614520493236733240}
 --- !u!1 &5762584242596372293
 GameObject:
   m_ObjectHideFlags: 0
@@ -9760,6 +9774,7 @@ GameObject:
   - component: {fileID: 3057903459774638952}
   - component: {fileID: 5684335467950960680}
   - component: {fileID: 7760393851152569954}
+  - component: {fileID: 8226851572361475707}
   m_Layer: 0
   m_Name: cp_tower2
   m_TagString: Untagged
@@ -9853,6 +9868,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &8226851572361475707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6173270337587327713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9890ed0d85e2fda4689b809888e059de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _goal2: {fileID: 0}
 --- !u!1 &6230330444446782734
 GameObject:
   m_ObjectHideFlags: 0
