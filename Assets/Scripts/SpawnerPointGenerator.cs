@@ -31,12 +31,13 @@ public class SpawnerPointGenerator : MonoBehaviour
             spawnerPoint.transform.position = GetRandomPosition(startPosition);
             spawnerPoint.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
             spawnerPoint.GetComponent<Renderer>().material.color = Color.green;
+            spawnerPoint.tag = "SpawnerPoint";
         }
     }
 
     public GameObject[] GetSpawnerPoints()
     {
-        return GameObject.FindGameObjectsWithTag("spawnerPoint");
+        return GameObject.FindGameObjectsWithTag("SpawnerPoint");
     }
 
     private Vector3 GetRandomPosition(Vector3 startPosition)

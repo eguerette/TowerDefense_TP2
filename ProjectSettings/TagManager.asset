@@ -13,6 +13,8 @@ TagManager:
   - Turret2
   - Turret3
   - Spawn
+  - TurretBody
+  - SpawnerPoint
   layers:
   - Default
   - TransparentFX

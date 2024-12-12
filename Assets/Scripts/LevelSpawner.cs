@@ -56,12 +56,7 @@ public class LevelSpawner : MonoBehaviour
 
                 Instantiate(level, hitPoint, Quaternion.Euler(hitNormal));
                 levelSpawned = true;
-
-                SpawnerPointGenerator.Instance.GenerateSpawnerPoints(hitPoint);
             }
         }
-
-
-
     }
 }
