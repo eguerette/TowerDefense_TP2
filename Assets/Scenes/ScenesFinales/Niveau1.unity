@@ -11654,6 +11654,7 @@ MonoBehaviour:
   - {fileID: 6803345172916117465, guid: 6e0976bff251ac6418241da20500e38d, type: 3}
   spawnPoint: {fileID: 7236065872691327616}
   controllerTransform: {fileID: 7236065872691327616}
+  _infosNiveau: {fileID: 11400000, guid: ee29f6b9dfecbe1419ce61adf582fd8b, type: 2}
 --- !u!114 &4051073478031084078
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13411,7 +13412,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4129335410524712154}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c459c6643a3b4504a82e11d75b17dbab, type: 3}
   m_Name: 

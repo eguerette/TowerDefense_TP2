@@ -5,6 +5,9 @@ using UnityEngine;
 public class SnapLocation : MonoBehaviour
 {
     public Transform spotTransform;
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip soundEffect;
+
 
     public void OnTriggerEnter(Collider other)
     {
@@ -15,6 +18,7 @@ public class SnapLocation : MonoBehaviour
 
             other.tag = "PlacedTurret";
             Debug.Log("Le tag a changé!");
+            audioSource.PlayOneShot(soundEffect);
         }   
 
         if (other.CompareTag("Turret2"))
@@ -24,6 +28,7 @@ public class SnapLocation : MonoBehaviour
 
             other.tag = "PlacedTurret";
             Debug.Log("Le tag a changé!");
+            audioSource.PlayOneShot(soundEffect);
         } 
 
         if (other.CompareTag("Turret3"))
@@ -33,6 +38,7 @@ public class SnapLocation : MonoBehaviour
 
             other.tag = "PlacedTurret";
             Debug.Log("Le tag a changé!");
+            audioSource.PlayOneShot(soundEffect);
         } 
     }
 }
