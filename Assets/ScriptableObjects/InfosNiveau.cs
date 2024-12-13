@@ -8,6 +8,9 @@ public class InfosNiveau : ScriptableObject
     public float temps;
     public float tempsInitial;
     public float Coins;
+    public float coinsInitial;
+    public float Points;
+    public float pointsInitial;
     public bool Goal1Destroyed;
     public bool Goal2Destroyed;
 }
