@@ -40,6 +40,7 @@ public class N1_Enemy1 : MonoBehaviour
             if (enemylife > 0) {
 
                 enemylife --;
+                Debug.Log("Hit");
             }
 
             else {

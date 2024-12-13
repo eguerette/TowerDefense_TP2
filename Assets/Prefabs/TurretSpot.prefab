@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 8352161482681724262}
   - component: {fileID: 5599592608773757794}
   - component: {fileID: 8770109750458955927}
-  - component: {fileID: 8971872036250896349}
+  - component: {fileID: 8068429917177350081}
   m_Layer: 0
   m_Name: TurretSpot
-  m_TagString: Untagged
+  m_TagString: TurretSpot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32,8 +32,7 @@ Transform:
   m_LocalPosition: {x: -0.3, y: 0.576, z: 1.4}
   m_LocalScale: {x: 0.1, y: 0.001, z: 0.1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 4294236594495220541}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8352161482681724262
@@ -109,7 +108,7 @@ CapsuleCollider:
   m_Height: 345
   m_Direction: 1
   m_Center: {x: 0.000000074505806, y: 120.40525, z: -0.000000074505806}
---- !u!114 &8971872036250896349
+--- !u!114 &8068429917177350081
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -118,44 +117,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1723847474712442480}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d961c734840850f4487861a7af44c902, type: 3}
+  m_Script: {fileID: 11500000, guid: 1f83559d5c6d14e4090cd585b2f91df5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sphereCollider: {fileID: 8910951240757135294, guid: e731f0458047aba4baa918ec229118e3,
-    type: 3}
-  sphereCollider2: {fileID: 7227606859790598044, guid: 59d1f978677d8dc4ab6f770e9954c208,
-    type: 3}
-  sphereCollider3: {fileID: 381243528486867415, guid: 6e0976bff251ac6418241da20500e38d,
-    type: 3}
-  spotTransform: {fileID: 4294236594495220541}
---- !u!1 &5742747041230338830
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4294236594495220541}
-  m_Layer: 0
-  m_Name: SnapPoint
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4294236594495220541
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5742747041230338830}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 9050880068687033630}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
