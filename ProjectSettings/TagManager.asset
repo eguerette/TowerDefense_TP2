@@ -16,6 +16,8 @@ TagManager:
   - TurretBody
   - SpawnerPoint
   - Goal2
+  - PlacedTurret
+  - TurretSpot
   layers:
   - Default
   - TransparentFX

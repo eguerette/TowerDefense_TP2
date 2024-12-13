@@ -120,4 +120,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 50
   lifeTime: 10
-  turret: {fileID: 0}
+  turret: {fileID: 6803345172916117465, guid: 6e0976bff251ac6418241da20500e38d, type: 3}

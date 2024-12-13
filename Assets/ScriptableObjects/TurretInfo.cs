@@ -12,4 +12,7 @@ public class TurretInfo : ScriptableObject
     public bool turret1;
     public bool turret2;
     public bool turret3;
+    public float valueTurret1;
+    public float valueTurret2;
+    public float valueTurret3;
 }

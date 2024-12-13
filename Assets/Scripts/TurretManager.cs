@@ -12,9 +12,9 @@ public class TurretManager : MonoBehaviour
         }
     }
 
-    public void ActivateCollider()
+    public void OnTriggerEnter(Collider other)
     {
-        if (sphereCollider != null)
+        if (other.CompareTag("TurretSpot"))
         {
             sphereCollider.enabled = true;
             gameObject.tag = "PlacedTurret";
