@@ -15,7 +15,7 @@ public class SpotColor : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Turret"))
+        if (other.CompareTag("TurretBody"))
         {
             if (spotMaterial != null) 
             {
@@ -26,7 +26,7 @@ public class SpotColor : MonoBehaviour
 
     public void OnTriggerExit(Collider other) 
     {
-        if (other.CompareTag("Turret"))
+        if (other.CompareTag("TurretBody"))
         {
             if (spotMaterial != null)
             {
