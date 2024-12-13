@@ -15,9 +15,9 @@ MonoBehaviour:
   fireRateCooldown1: 1
   fireRateCooldown2: 2
   fireRateCooldown3: 3
-  damageBullet1: 1
-  damageBullet2: 2
-  damageBullet3: 3
   turret1: 0
   turret2: 0
   turret3: 0
+  valueTurret1: 5
+  valueTurret2: 10
+  valueTurret3: 15
